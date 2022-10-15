@@ -1,0 +1,110 @@
+﻿h1 {
+    color: rgb(135, 135, 135);
+    display: block;
+    font-size: 30px;
+    font: bold;
+    margin: 0;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 0;
+    padding-top: 10px;
+}
+
+h4,
+h5 {
+    color: #7c7c7c;
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 0;
+}
+
+p {
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.temperature {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 0;
+    margin-left: 0;
+}
+
+.units {
+    position: relative;
+    top: -34px;
+}
+
+.weather-app {
+    border: 1px solid #dadde1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.cities {
+    padding-left: 3px;
+    font-weight: bold;
+    color: #7c7c7c;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: block;
+    list-style: none;
+}
+
+.form {
+    display: block;
+}
+
+.btn:hover {
+    font-size: 15px;
+}
+
+.btn-success:hover {
+    color: whitesmoke;
+    font-size: 12px;
+    transition: all 150ms ease-in-out;
+}
+
+.card {
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.cards {
+    padding: 0;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.btn-success {
+    padding: 0;
+}
+
+.card:hover {
+    background-color: rgb(139, 231, 139);
+}
+
+.cloudy {
+    width: 70px;
+    padding-bottom: 0;
+    padding-left: 0;
+    color: #7c7c7c;
+    margin-left: 0;
+}
+
+.additionalWeather {
+    color: #7c7c7c;
+    list-style: none;
+    margin-left: 300px;
+    display: block;
+    padding: 0;
+    padding-top: 10px;
+    padding-top: 0;
+}
