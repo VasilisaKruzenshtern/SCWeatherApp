@@ -111,7 +111,9 @@ p {
     list-style: none;
 }
 .footer{
-    text-align:center;
+    
     padding-top: 10px;
     color: aquamarine;
+    position: center;
+    text-align:center;
 }
