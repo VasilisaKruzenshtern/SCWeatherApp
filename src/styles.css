@@ -6,7 +6,7 @@
     margin: 0;
     text-align: left;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 10px;
     padding-top: 10px;
 }
 
@@ -16,7 +16,7 @@ h5 {
     padding: 0;
     font-size: 20px;
     margin: 0;
-    margin-left: 0;
+    margin-left: 10px;
 }
 
 p {
@@ -29,7 +29,8 @@ p {
     font-size: 64px;
     font-weight: 400;
     line-height: 0;
-    margin-left: 0;
+    margin-left: 15px;
+    margin-top: 20px;
 }
 
 .units {
@@ -54,6 +55,7 @@ p {
     padding-bottom: 10px;
     display: block;
     list-style: none;
+    margin-left: 10px;
 }
 
 .form {
@@ -73,11 +75,12 @@ p {
 .card {
     background-color: aquamarine;
     border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .cards {
     padding: 0;
-    max-width: 600px;
 }
 
 .card-body {
@@ -110,10 +113,9 @@ p {
     padding-top: 0;
     list-style: none;
 }
-.footer{
-    
-    padding-top: 10px;
-    color: aquamarine;
-    position: center;
-    text-align:center;
+
+.footer {
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
