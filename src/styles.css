@@ -66,11 +66,6 @@ p {
     font-size: 15px;
 }
 
-.btn-success:hover {
-    color: whitesmoke;
-    font-size: 12px;
-    transition: all 150ms ease-in-out;
-}
 
 .card {
     background-color: aquamarine;
@@ -87,12 +82,10 @@ p {
     padding: 0;
 }
 
-.btn-success {
-    padding: 0;
-}
 
 .card:hover {
     background-color: rgb(139, 231, 139);
+    transition: all 150ms ease-in-out;
 }
 
 .cloudy {
@@ -119,5 +112,8 @@ p {
 .footer {
     text-align: center;
     text-decoration: none;
-    color: black;
+    color:mediumspringgreen;
+}
+.current-city-button {
+    color: mediumspringgreen;
 }
