@@ -89,6 +89,9 @@ p {
     padding: 0;
     margin-top: 20px;
 }
+.weather-cards{
+    margin-top: -20px;
+}
 
 .card-body {
     padding: 0;
