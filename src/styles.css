@@ -29,15 +29,19 @@ p {
     font-size: 64px;
     font-weight: 400;
     line-height: 0.5;
-    margin-left: 90px;
-    margin-top: -50px;
+    margin-left: 71px;
+    margin-top: -54px;
 }
 
 .units {
     margin-top: -50px;
-    margin-left: 160px;
+    margin-left: 146px;
     text-decoration: none;
 
+}
+.temperature-units {
+    margin-left: 20px;
+    margin-top: 12px;
 }
 .active{
     color: rgb(33, 33, 33);
@@ -113,8 +117,8 @@ p {
     padding-top: 10px;
     padding-top: 0;
     list-style: none;
-    margin-bottom: 20px;
-    margin-top: -12px;
+    margin-bottom: 0px;
+    margin-top: 1px;
 }
 
 .footer {
