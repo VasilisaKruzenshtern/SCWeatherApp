@@ -117,7 +117,7 @@ p {
 }
 
 .footer {
-    text-align: center;
+    position: relative;
     text-decoration: none;
     color: green;
 }
