@@ -37,11 +37,9 @@ p {
     margin-top: -50px;
     margin-left: 146px;
     text-decoration: none;
-
 }
-.temperature-units {
-    margin-left: 20px;
-    margin-top: 12px;
+.weather-temperature{
+    margin-left: 10px;
 }
 .active{
     color: rgb(33, 33, 33);
