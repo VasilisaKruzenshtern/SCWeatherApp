@@ -65,8 +65,9 @@ p {
     margin-left: 10px;
 }
 
-.form {
+.searchCity {
     display: block;
+    margin-left: 10px;
 }
 
 .btn:hover {
