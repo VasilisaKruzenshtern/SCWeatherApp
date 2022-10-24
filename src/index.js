@@ -110,4 +110,3 @@ celsiusLink.addEventListener("click", displayCelsiusTemperature);
 let currentLocationButton = document.querySelector("#current-city-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-// searchCity("Kyiv");
