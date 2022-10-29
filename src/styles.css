@@ -130,3 +130,7 @@ p {
 .current-city-button {
     color: green;
 }
+.city-input {
+    border: solid;
+    border: rgb(13, 11, 172);
+}
