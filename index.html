@@ -24,38 +24,19 @@
 <body>
     <div class="container">
         <div class="weather-app">
-            <div>
-                <div class="row">
-                    <div class="col-8">
-                        <ul class="cities">
-                            <li id="london">London</li>
 
-                            <li id="sidney">Sidney</li>
-                            <li id="lissbon">
-                                Lissbon
-                            </li>
-                            <li id="newYork">
-                                New York
-                            </li>
-                            <li id="kyiv">
-                                Kyiv
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div class="searchCity">
-            <form id="search-city-form">
-                <input type="search" id="city-input" placeholder="Enter a city" />
-                <input type="submit"
-                       id="search-button"
-                       value="  search  "
-                       class="btn btn-primary" />
-                <input type="submit"
-                       id="current-city-button"
-                       value="current"
-                       class="btn btn-primary" />
-            </form>
+                <form id="search-city-form">
+                    <input type="search" id="city-input" placeholder="Enter a city" />
+                    <input type="submit"
+                           id="search-button"
+                           value="  search  "
+                           class="btn btn-primary" />
+                    <input type="submit"
+                           id="current-city-button"
+                           value="current"
+                           class="btn btn-primary" />
+                </form>
             </div>
             <h1 id="city">
                 Kiev, Ukraine
@@ -65,17 +46,17 @@
             <div class="row">
                 <div class="col-6">
                     <div class="d-flex weather-temperature">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                         alt="Cloudy icon"
-                         class="weather-icon"
-                         id="icon" />
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                             alt="Cloudy icon"
+                             class="weather-icon"
+                             id="icon" />
 
-                    <div class="temperature" id="temperature">19</div>
-                    <div class="units">
-                        <a href="#" id="celsius-link" class="active">°C</a> |
-                        <a href="#" id="fahrenheit-link">°F</a>
-                    </div>
+                        <div class="temperature" id="temperature">19</div>
+                        <div class="units">
+                            <a href="#" id="celsius-link" class="active">°C</a> |
+                            <a href="#" id="fahrenheit-link">°F</a>
                         </div>
+                    </div>
                 </div>
 
                 <div class="col-6">
@@ -85,75 +66,17 @@
                         <li>Wind: <span id="wind"></span> km/h</li>
                     </ul>
                 </div>
-            </div>
-            <div class="weather-cards">
-                <div class="row" id="cards">
-                    <div class="col">
-                        <div class="card" style="width: 5rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Sun</h5>
-                                <p class="card-text">
-                                    <i class="fa-solid fa-wind"></i>
-                                    <i class="degrees"> 18 °C</i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 5rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Mon</h5>
-                                <p class="card-text">
-                                    <i class="fa-solid fa-sun"></i>
-                                    <i class="degrees"> 19 °C</i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card" style="width: 5rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Tue</h5>
-                                <p class="card-text">
-                                    <i class="fa-solid fa-umbrella"></i>
-                                    <i class="degrees"> 17 °C</i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 5rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Wed</h5>
-                                <p class="card-text">
-                                    <i class="fa-solid fa-cloud-showers-heavy"></i>
-                                    <i class="degrees"> 15 °C</i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 5rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Thu</h5>
-                                <p class="card-text">
-                                    <i class="fa-solid fa-cloud-bolt"></i>
-                                    <i class="degrees"> 15 °C</i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
         <script src="src/index.js"></script>
-        <p class="footer">
-            <a href="https://github.com/VasilisaKruzenshtern/SCWeatherApp">
+           <p class="footer">
+              <a href="https://github.com/VasilisaKruzenshtern/SCWeatherApp">
                 GitHub Weather App
-            </a>
-            by Olena Palchykova
-        </p>
+              </a>
+               by Olena Palchykova
+           </p>
+       
     </div>
 </body>
 </html>

@@ -19,10 +19,6 @@ h5 {
     margin-left: 10px;
 }
 
-p {
-    margin-right: auto;
-    margin-left: 15px;
-}
 
 .temperature {
     color: rgb(33, 33, 33);
@@ -55,22 +51,14 @@ p {
     border-radius: 10px;
     max-width: 600px;
     margin: 30px auto;
-}
-
-.cities {
-    padding-left: 3px;
-    font-weight: bold;
-    color: #7c7c7c;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    display: block;
-    list-style: none;
-    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .searchCity {
     display: block;
     margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .btn:hover {
@@ -78,31 +66,6 @@ p {
     transition: all 150ms ease-in-out;
 }
 
-.card {
-    background-color: aquamarine;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-top: 35px;
-}
-
-.cards {
-    padding: 0;
-    margin-top: 20px;
-}
-.weather-cards{
-    margin-top: -20px;
-    margin-right: 10px;
-}
-
-.card-body {
-    padding: 0;
-}
-
-.card:hover {
-    background-color: rgb(42, 122, 251);
-    transition: all 150ms ease-in-out;
-}
 
 .icon {
     padding-bottom: 0;
@@ -120,17 +83,31 @@ p {
     list-style: none;
     margin-top: -9px;
 }
-
-.footer {
-    text-align: center;
-    text-decoration: none;
-    color: #7c7c7c;
+.weather-forecast{
+    margin-top:10px;
     
+    text-align:center;
+    color: #000;
+}
+.weather-forecast-date{
+    font-size: 16px;
+    opacity:0,5;
+}
+.weather-forecast-temperature-min{
+    opacity:0.5;
+}
+.weather-forecast-temperatures{
+    font-size:13px;
+}
+.footer {
+   text-align:center;
+    color: #7c7c7c;
+}
+.footer a{
+    text-decoration:none;
 }
 
-.current-city-button {
-    color: green;
-}
+
 .city-input {
     border: solid;
     border: rgb(13, 11, 172);
