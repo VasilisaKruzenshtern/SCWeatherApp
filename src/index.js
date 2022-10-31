@@ -165,3 +165,4 @@ function getForecast(coordinates) {
     currentLocationButton.addEventListener("click", getCurrentLocation);
 
    
+search("Kiev");
