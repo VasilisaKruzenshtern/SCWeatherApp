@@ -95,6 +95,7 @@ function getForecast(coordinates) {
             response.data.weather[0].main;
         dateElement.innerHTML = formatDate(response.data.dt * 1000);
         celsiusTemperature = response.data.main.temp;
+        
 
         temperatureElement.innerHTML = Math.round(celsiusTemperature);
         iconElement.setAttribute(
@@ -152,8 +153,7 @@ function getForecast(coordinates) {
     let currentTime = new Date();
     dateElement.innerHTML = formatDate(currentTime);
 
-    let searchForm = document.querySelector("#search-city-form");
-    searchForm.addEventListener("submit", handleSubmit);
+   
 
     let fahrenheitLink = document.querySelector("#fahrenheit-link");
     fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
@@ -164,5 +164,7 @@ function getForecast(coordinates) {
     let currentLocationButton = document.querySelector("#current-city-button");
     currentLocationButton.addEventListener("click", getCurrentLocation);
 
-   
-search("Kiev");
+let searchForm = document.querySelector("#search-city-form");
+searchForm.addEventListener("submit", handleSubmit);
+
+searchCity("Kiev");
